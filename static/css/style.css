@@ -11,7 +11,6 @@ html {
 body {
   background: #303235;
   background-size: cover;
-  border-top: 3px solid #6c98ee;
   font-family: "NATS", sans-serif;
   font-size: 16px;
   color: #fff;
@@ -52,10 +51,11 @@ body {
           align-items: center;
   padding-left: 10vw;
   padding-right: 10vw;
+  border-top: 3px solid #6c98ee;
 }
 
 .logo {
-  height: 50px;
+  height: 40px;
 }
 
 nav {
@@ -122,6 +122,7 @@ nav {
 }
 
 .menu__link {
+  font-size: 26px;
   text-decoration: none;
   color: #bebebe;
 }
@@ -132,6 +133,7 @@ nav {
 }
 
 .cyberS__container {
+  margin-top: -4%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,6 +151,21 @@ nav {
   width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
+}
+
+.cyberS__container::before {
+  content: "";
+  position: absolute;
+  width: 102%;
+  height: 60%;
+  max-height: 800px;
+  top: -10%;
+  left: -1%;
+  z-index: -1;
+  -webkit-transform: rotate(-3.35deg);
+          transform: rotate(-3.35deg);
+  background-image: url("../img/bg_home.jpg");
+  background-size: cover;
 }
 
 .cyber__security {
@@ -179,25 +196,21 @@ nav {
 
 .button__register {
   width: 180px;
-  height: 50px;
   background: #6c98ee;
   border: 1px solid transparent;
   border-radius: 5px;
   margin-top: 50px;
-  height: 80px;
+  height: 54px;
   font-size: 32px;
   color: #fff;
   cursor: pointer;
 }
 
 /* Find teams */
-main {
-  height: 90vh;
-}
-
 .find__teams {
-  max-width: 80%;
-  margin: 15vh auto;
+  max-width: 80vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,9 +218,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .teams__title {
