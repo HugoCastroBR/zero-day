@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "NATS";
+  src: url("../fonts/NATS-Regular.ttf");
+}
+
+html{
+  overflow-x: hidden;
+}
+body {
+  background: #303235;
+  background-size: cover;
+  border-top: 3px solid #6c98ee;
+  font-family: "NATS", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  min-height: 300vh; /* TIRAR ISSO AQUI SE EU ESQUECER */
+}
+
+
+
+
+/* Logo, Nav and Apresentation of site */
+.image__background {
+  position: relative;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../assets/bg_home__blurred.jpg);
+}
+
+.image__skew {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 120px 99vw 0 0;
+  border-color: transparent #303235 transparent transparent;
+  border-style: solid;
+}
+
+.Header__container{
+  height: 80px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.logo{
+  height: 50px;
+}
+
+nav {
+  height: 50px;
+  padding: 23px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu {
+  width: 100%;
+  max-width: 600px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: right;
+}
+
+.menu__button {
+  font-size: 26px;
+}
+
+.menu__join {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.menu__join:hover{
+  color: #303235;
+  transition: 0.6s;
+  box-shadow: inset 0px -30px 0px 0px white;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #bebebe;
+}
+
+.menu__link___join {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cyberS__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 60vh;
+  width: 80vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.cyber__security {
+  font-size: 140px;
+  height: 120px;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.cyber__solutions {
+  font-size: 120px;
+  font-weight: 400;
+  margin: 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.button__register {
+  width: 180px;
+  height: 50px;
+  background: #6c98ee;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 80px;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+/* Find teams */
+main {
+  height: 90vh;
+}
+
+.find__teams {
+  max-width: 80%;
+  margin: 15vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teams__title {
+  font-size: 100px;
+}
+
+.teams__text {
+  font-size: 35px;
+}
+
+.teams__blocks {
+  width: 100%;
+  margin: 0 auto;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.block__container {
+  height: 70%;
+  width: 20%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 15px 15px #303235, 15px 15px 0px 2px #fff;
+}
+
+.teams__image {
+  width: 60%;
+}
+
+.teams__desc {
+  font-size: 4rem;
+  color: #303235;
+}
+
+.ts__container {
+  width: 100%;
+  margin: 15vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search__title {
+  font-size: 80px;
+}
+
+.search__container {
+  margin: 5vh auto;
+  height: 60px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.search__holder {
+  width: 90%;
+  height: 60px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  font-size: 40px;
+  color: black;
+  padding-left: 25px;
+}
+
+.search__button {
+  color: #fff;
+  background: #6c98ee;
+  font-size: 25px;
+  width: 10%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 20px 20px 0;
+}
