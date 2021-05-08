@@ -1,0 +1,71 @@
+
+ // Just Header
+
+.Header__container {
+	position: absolute;
+	height: 80px;
+	width: 80vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	border-top: 3px solid #6c98ee;
+	z-index: 10;
+}
+
+.Header__logo__container{
+	cursor: pointer;
+	text-decoration: none;
+}
+.Header__logo {
+	height: 40px;
+}
+
+.nav__menu {
+	width: 100%;
+	max-width: 600px;
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: right;
+}
+
+.menu__button {
+	font-size: 26px;
+}
+
+.menu__join {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.menu__join:hover {
+	color: #303235;
+	transition: 0.6s;
+	box-shadow: inset 0px -30px 0px 0px white;
+}
+
+.menu__link {
+	font-size: 26px;
+	text-decoration: none;
+	color: #bebebe;
+	transition: 0.3s;
+}
+
+.menu__link:hover {
+	transition: 0.3s;
+	color: #fff;
+}
+
+.menu__link___join {
+	text-decoration: none;
+	color: #fff;
+}

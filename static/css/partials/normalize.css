@@ -347,3 +347,7 @@ template {
 [hidden] {
   display: none;
 }
+
+button,a,textarea,input{
+  outline: none;
+}

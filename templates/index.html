@@ -1,74 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>ZeroDay Cyber Security</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/icon.png">
-    <link rel="stylesheet" href="../static/css/normalize.css">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+	<head>
+		<title>ZeroDay Cyber Security</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./../static/img/icon.png" />
+		<link rel="stylesheet" href="../static/css/partials/normalize.css" />
+		<link rel="stylesheet" href="../static/css/partials/header.css" />
+		<link rel="stylesheet" href="../static/css/style.css" />
+	</head>
+	<body>
+		<header class="Header__container">
+			<a class="Header__logo__container" href="/">
+				<img
+					src="../static/img/zeroDay_logo.svg"
+					alt="Logo da Zero Day Security"
+					class="Header__logo"
+				/>
+			</a>
+			<div class="nav__menu">
+				<a href="#" class="menu__link">Events</a>
+				<a href="#" class="menu__link">Companies</a>
+				<a href="#" class="menu__link">Teams</a>
+				<a class="menu__button menu__join"> JOIN </a>
+			</div>
+		</header>
+    <div class="background__circle bg__circle__01"></div>
+		<main>
+			
+			<div>
+				<section class="cyberS__container">
+					<span class="cyber__security">Cyber Security</span>
+					<span class="cyber__solutions">Solutions</span>
 
-  </head>
-  <body>
-    <header class="Header__container">
-      <img src="../static/img/zeroDay_logo.svg" alt="Logo da Zero Day Security" class="logo"/>
-        <ul class="nav__menu">
-          <a href="#" class="menu__link">Companies</a>
-          <a href="#" class="menu__link">Companies</a>
-          <a href="#" class="menu__link">Teams</a>
-          <a class="menu__button menu__join">
-              JOIN
-          </a>
-        </ul>
-    </header>
-    
+					<button type="button" class="button__register">
+						Register
+					</button>
+				</section>
 
-    <main>
-      <section class="cyberS__container">
-          <span class="cyber__security">Cyber Security</span>
-          <span class="cyber__solutions">Solutions</span>
-    
-          <button type="button" class="button__register">
-            Register
-          </button>
-        
-        
-      </section>
+				<section class="find__teams">
+					<span class="teams__title"
+						>Find Teams to solve your problems</span
+					>
+					<span class="teams__text"
+						>Here you can find the best teams to try to solve your
+						problem or to be a part of your bug bounty event.</span
+					>
+					<span class="teams__text"
+						>Join now and have the chance to improve the security of
+						your company.</span
+					>
+				</section>
 
-      <div class="find__teams">
-        <span class="teams__title">Find Teams to solve your problems</span>
-        <span class="teams__text">Here you can find the best teams to try to solve your problem or to be a part of your bug bounty event.</span>
-        <span class="teams__text">Join now and have the chance to improve the security of your company.</span>
-      </div>
+				<section class="teams__items__container">
+					<div class="block__container">
+						<div class="teams__image__container">
+							<img
+								class="teams__image"
+								src="../static/img/teams.svg"
+							/>
+						</div>
+						<span class="teams__desc">Tracking</span>
+					</div>
+					<div class="block__container">
+						<div class="teams__image__container">
+							<img
+								class="teams__image"
+								src="../static/img/teams.svg"
+							/>
+						</div>
+						<span class="teams__desc">Easy Search</span>
+					</div>
+					<div class="block__container">
+						<div class="teams__image__container">
+							<img
+								class="teams__image"
+								src="../static/img/teams.svg"
+							/>
+						</div>
+						<span class="teams__desc">Security</span>
+					</div>
+					<div class="block__container">
+						<div class="teams__image__container">
+							<img
+								class="teams__image"
+								src="../static/img/teams.svg"
+							/>
+						</div>
+						<span class="teams__desc">Simple</span>
+					</div>
+				</section>
 
-      <div class="teams__blocks">
-        <div class="block__container">
-          <img class="teams__image" src="assets/teams.svg">
-          <span class="teams__desc">Tracking</span>
-        </div>
-        <div class="block__container">
-          <img class="teams__image" src="assets/teams.svg">
-          <span class="teams__desc">Easy Search</span>
-        </div>
-        <div class="block__container">
-          <img class="teams__image" src="assets/teams.svg">
-          <span class="teams__desc">Security</span>
-        </div>
-        <div class="block__container">
-          <img class="teams__image" src="assets/teams.svg">
-          <span class="teams__desc">Simple</span>
-        </div>
-      </div>
+				<section class="search__form__container">
+					<span class="search__title"
+						>Find the bests teams or opportunity</span
+					>
 
-      <div class="ts__container">
-        <span class="search__title">Find the bests teams or opportunity</span>
-
-        <form class="search__container">
-          <input type="text" id="search" class="search__holder" placeholder="Search">
-          <button></button>
-        </form>
-      </div>
-
-    </main>
-  </body>
+					<form class="search__container">
+						<input
+							type="text"
+							id="search"
+							class="search__input"
+							placeholder="Search"
+						/>
+						<button class="search__submit">
+							<img src="../static/img/search.svg" alt="" />
+						</button>
+					</form>
+				</section>
+			</div>
+		</main>
+	</body>
 </html>
