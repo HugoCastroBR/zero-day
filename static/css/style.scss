@@ -4,7 +4,7 @@
   src: url("../fonts/NATS-Regular.ttf");
 }
 
-html{
+html {
   overflow-x: hidden;
 }
 body {
@@ -13,22 +13,18 @@ body {
   font-family: "NATS", sans-serif;
   font-size: 16px;
   color: #fff;
-  min-height: 300vh; /* TIRAR ISSO AQUI SE EU ESQUECER */
 }
-main{
+main {
   z-index: 2;
   position: absolute;
-  div{
+  div {
     position: static;
   }
 }
 
-
-
 /* Just main */
 
 .image__background {
-  
   height: 72vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +41,6 @@ main{
   border-style: solid;
 }
 
-
 .cyberS__container {
   margin-top: -1%;
   display: flex;
@@ -56,10 +51,8 @@ main{
   width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
-  
-
 }
-.cyberS__container::before{
+.cyberS__container::before {
   content: "";
   position: absolute;
   width: 102%;
@@ -72,7 +65,6 @@ main{
   background-image: url("../img/bg_home.jpg");
   background-position: 0px 160px;
   background-size: cover;
-
 }
 
 .cyber__security {
@@ -105,24 +97,20 @@ main{
   cursor: pointer;
   transition: 0.2s;
 }
-.button__register:hover{
+.button__register:hover {
   transition: 0.2s;
   background: #6089dc;
 }
 
-
 /* Find teams */
 
-
 .find__teams {
-  
   max-width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
 
 .teams__title {
@@ -146,7 +134,6 @@ main{
 }
 
 .block__container {
-
   height: 340px;
   width: 340px;
   background: #fff;
@@ -157,12 +144,9 @@ main{
   box-shadow: 15px 15px #303235, 15px 15px 0px 2px #fff;
   margin-bottom: 40px;
   margin-top: 40px;
-  
 }
 
-
-
-.teams__image__container{
+.teams__image__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,7 +167,7 @@ main{
   justify-content: center;
 }
 
-.search__form__container{
+.search__form__container {
   width: 100%;
   margin: 15vh auto;
   display: flex;
@@ -214,10 +198,9 @@ main{
   border: none;
   font-size: 40px;
   color: black;
-  
 }
 
-.search__submit{
+.search__submit {
   color: #fff;
   background: #303235;
   font-size: 25px;
@@ -232,26 +215,27 @@ main{
   transition: 0.4s;
 }
 
-.search__submit:hover{
+.search__submit:hover {
   transition: 0.4s;
   background-color: black;
   filter: invert(1);
 }
 
-
-.background__circle{
+.background__circle {
   position: absolute;
   height: 850px;
   width: 850px;
   border-radius: 1000px;
-  background: rgb(101,93,210);
-  background: linear-gradient(180deg, rgba(101,93,210,0) 0%, rgba(101,93,210,1) 100%);
+  background: rgb(101, 93, 210);
+  background: linear-gradient(
+    180deg,
+    rgba(101, 93, 210, 0) 0%,
+    rgba(101, 93, 210, 1) 100%
+  );
   z-index: 1;
 }
 
-
-
-.background__circle::after{
+.background__circle::after {
   margin-left: 40px;
   margin-top: 40px;
   content: "";
@@ -263,7 +247,7 @@ main{
   z-index: -1;
 }
 
-.bg__circle__01{
+.bg__circle__01 {
   margin-left: -570px;
   margin-top: 500px;
   transform: rotate(110deg);
