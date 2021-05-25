@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+    font-family: "NATS";
+    src: url("./fonts/NATS-Regular.ttf");
+}
+
+* {
+    font-family: "NATS";
+}
+
+body {
+    background: #303235;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.left {
+    display: flex;
+    border: 1px solid #FFF;
+    border-radius: 30px 0px 0px 30px;
+    overflow: hidden;
+}
+
+.left img {
+    width: 380px;
+    height: 480px;
+    
+}
+
+.right {
+    background-color: #3F3F3F;
+    width: 380px;
+    height: 480px;
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid #FFF;
+}
+
+.right span {
+    font-family: 'NATS', sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 72%;
+    justify-content: space-around;
+}
+
+.right input {
+    border-radius: 0px;
+    border: 2px solid #FFF;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    align-items: center;
+    background: #3F3F3F;
+    color: #FFF;
+    margin-top: -8px;
+}
+
+::-webkit-input-placeholder {
+    color: #f1f1f1;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #f1f1f1;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #f1f1f1;
+}
+
+:-ms-input-placeholder {
+    color: #f1f1f1;
+}
+
+.button__join {
+    width: 75px;
+    height: 35px;
+    font-family: 'NATS', sans-serif;
+    color: #FFF;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background: #3F3F3F;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    margin-top: 30px;
+}
+
+.button__join:hover {
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+    
+}
+
+.inputContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    
+}
+
+.inputContainer label{
+    padding: 0;
+    margin: 0%;
+    
+
+}
