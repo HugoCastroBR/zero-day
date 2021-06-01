@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+    font-family: "NATS";
+    src: url("../fonts/NATS-Regular.ttf")
+}
+
+* {
+    font-family: "NATS";
+}
+
+body {
+  background-color: #303235;
+  overflow-x: hidden;
+}
+main {
+  width: 100vw;
+}
+.image_title_container{
+  background-image: url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.8rem;
+  color:#fff;
+  height: 600px;
+  background-size: cover;
+  transform: rotate(-3.35deg);
+  position: absolute;
+  z-index: -10;
+  top: -100px;
+  left: -40px;
+  width: 110vw;
+}
+.image_title_container span {
+  transform: rotate(3.35deg);
+  margin-top: 250px;
+  margin-left: -100px;
+}
+.first_text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  font-size: 2.8rem;
+  margin-bottom: -100px;
+  margin-top: 450px;
+}
+
+
+.select_container {
+  margin: 0 auto;
+  display: flex;
+  width: 55%;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block_container {
+  height: 300px;
+  width: 300px;
+  background: #fff;
+  border-radius: 5% 5% 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #303235;
+}
+
+.professional {
+  width: 150px;
+  height: 150px;
+}
+
+.company {
+  width: 150px;
+  height: 150px;
+}
+
+.text_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 357;
+  height: 169;
+  color: #303235;
+  font-size: 2.4rem;
+  margin-top: 20px;
+}
+
+
+
+
+
+
