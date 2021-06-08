@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zero | Search Results</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- style tags -->
+  <link rel="icon" href="./../static/img/icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="../static/css/normalize.css">
+  <link rel="stylesheet" href="../static/css/partials/logged_header.css">
+  <link rel="stylesheet" href="../static/css/negociation/style.css">
+  <link rel="stylesheet" href="../static/css/footer.css">
+
+</head>
+<body>
+  <header>
+    <div class="header__container">
+      <a class="header__logo-container" href="./index.html">
+        <img
+          src="../static/img/zeroDay_logo.svg"
+          alt="Logo da Zero Day Security"
+          class="header__logo"
+        />
+      </a>
+
+      <form class="search__container">
+        <input
+          type="text"
+          id="search"
+          class="search__input"
+        />
+        <button class="search__submit">
+          <img src="../static/img/search.svg" alt="" />
+        </button>
+      </form>
+
+      <div class="user__container">
+        <span class="user__name">User</span>
+        <img src="../static/img/user.jpg" 
+        alt="Foto do usuario" 
+        class="user__avatar">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <span class="reporting__title">Reporting</span>
+    <div class="negociation__container">
+      <div class="form__container">
+        <form action="" method="POST" class="form__report">
+          <div class="input__container">
+              <label class="form__label" for="report__title">Title of the report *</label>
+              <input class="form__input" type="text" name="" placeholder="Report title" id="report__title" required>
+          </div>
+          <div class="input__container">
+              <label class="form__label" for="">Subject *</label>
+              <input class="form__input" type="text" name="" placeholder="Subject" id="" required>
+          </div>
+          <div class="input__container">
+              <label class="form__label" for="">URL or Target</label>
+              <input class="form__input" type="text" name="" placeholder="Url or target" id="">
+          </div>
+          <div class="input__container">
+              <label class="form__label" for="">Company Project</label>
+              <input class="form__input" type="text" name="" placeholder="Report title" id="">
+          </div>
+          <div class="input__container">
+              <label class="form__label" for="">Company Project</label>
+              <textarea class="form__input form__textarea" placeholder="Report" id=""></textarea>
+          </div>
+          <div class="input__container">
+            <label class="form__label" for="">Email to contact</label>
+            <input class="form__input" type="email" name="" placeholder="email" id="">
+        </div>
+        <div class="input__container">
+            <label class="form__label" for="">Wanted price</label>
+            <input class="form__input" type="text" name="" placeholder="Price" id="">
+        </div>
+        <div class="input__container input__checkbox">
+            <input class="form__checkbox" type="checkbox" name="" placeholder="Price" id="">
+            <label class="form__label" for="">This form is following the company report rules</label>
+        </div>
+        <div class="input__container input__checkbox">
+            <input class="form__checkbox" type="checkbox" name="" placeholder="Price" id="">
+            <label class="form__label" for="">I am according to send my data to zero day</label>
+        </div>
+
+          <button class="button__join" type="submit">SEND</button>
+        </form>
+      </div>
+
+      <div class="rules__container">
+        <span class="rules__title">Company Negociation Rules</span>
+        <div class="rules__pdf">
+          <p>PDF</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#">
+      <img 
+        src="../static/img/zeroDay_logo.svg" 
+        alt="Logo da Zero Day Security" 
+        class="footer__logo">
+    </a>
+    <a class="footer__link" href="#">Terms</a>
+    <a class="footer__link" href="#">All Rights Reserved 2021 &reg</a>
+    <a class="footer__link" href="#">Support</a>
+    <div class="footer__social">
+      <a class="footer__icons" href="#">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a class="footer__icons" href="#">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

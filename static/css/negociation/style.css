@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "NATS";
+  src: url("../fonts/NATS-Regular.ttf");
+}
+
+body {
+  background: #303235;
+  font-family: "NATS", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+main {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.reporting__title {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+.negociation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.form__container {
+  width: 45%;
+}
+
+.rules__container {
+  width: 40%;
+}
+
+/* Form */
+.form__report {
+  margin-top: 1rem;
+}
+
+.input__container {
+  margin-bottom: 1.5rem;
+}
+
+.input__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__label {
+  display: inline-block;
+  margin: 0.2rem 0;
+}
+
+.form__input {
+  padding-left: 0.5rem;
+  border-radius: 3px;
+  border: 3px solid #fff;
+  width: 100%;
+  height: 30px;
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+}
+
+.form__textarea {
+  padding-top: 0.5rem;
+  height: 250px;
+}
+
+.form__checkbox {
+  border: 0px solid #fff;
+  background-color: #000;
+  height: 1.4rem;
+  width: 1.4rem;
+  cursor: pointer;
+  margin-right: 0.7rem;
+}
+
+.form__checkbox:checked {
+  background-color: black;
+}
+
+.button__join {
+  padding: 1rem 2.2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  margin-top: 30px;
+}
+
+.button__join:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  color: #b9b9b9;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #b9b9b9;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b9b9b9;
+}
+
+:-ms-input-placeholder {
+  color: #b9b9b9;
+}
+
+/* Rules */
+.rules__title {
+  color: #fff;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.rules__pdf {
+  height: 70vh;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #000;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
