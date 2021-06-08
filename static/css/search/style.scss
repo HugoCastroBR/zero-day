@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "NATS";
+  src: url("../fonts/NATS-Regular.ttf");
+}
+
+body {
+  background: #303235;
+  font-family: "NATS", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main__container {
+  width: 100%;
+  margin: 10px auto 0;
+}
+
+.search__results {
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 1.4rem;
+}
+
+.category__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search__title {
+  font-size: 2.8rem;
+  display: inline-block;
+  color: #fff;
+}
+
+.results__bar {
+  width: 100%;
+  height: 2px;
+  margin-left: 10px;
+  background: #c4c4c4;
+}
+
+.results__list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.results__container {
+  width: 100%;
+  margin: 2rem 0;
+  height: 14rem;
+  color: #fff;
+  display: flex;
+}
+
+.results__container-image {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.company__image-recomended {
+  border: 2px solid #00ff57;
+}
+
+.container__info {
+  margin-left: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container__info-name {
+  font-size: 2.6rem;
+}
+
+.container__info-desc {
+  font-size: 1.1rem;
+  height: 50%;
+  line-height: 30px;
+}
+
+.container__info-link {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.container__info-see {
+  text-decoration: none;
+  width: 100px;
+  font-size: 1.8rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.container__info-see:hover {
+  color: #303235;
+  transition: 0.6s;
+  box-shadow: inset 0px -40px 0px 0px white;
+}
+
+.company__alert-recomended {
+  color: #00ff57;
+  margin-right: 1rem;
+}
+
+.pentesters__container {
+  margin: 4rem 0;
+}

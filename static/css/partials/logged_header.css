@@ -1,0 +1,115 @@
+header {
+  height: 80px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #635bcc;
+}
+
+.header__container {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo-container {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+.search__container {
+  height: 40px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search__input {
+  width: 558px;
+  height: 60px;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+  text-indent: 10px;
+}
+
+.search__submit {
+  color: #fff;
+  background: #635bcc;
+  font-size: 25px;
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.search__submit:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: black;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.user__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.user__name {
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+.user__avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=logged_header.css.map */
