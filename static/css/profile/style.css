@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "NATS";
+  src: url("../fonts/NATS-Regular.ttf");
+}
+
+body {
+  background: #303235;
+  font-family: "NATS", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main__container {
+  width: 100%;
+  margin: 2rem auto 0;
+}
+
+.perfil__container {
+  width: 100%;
+  display: flex;
+}
+
+.image__container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil__img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.perfil__img-premium {
+  border: 2px solid #00ff57;
+}
+
+.premium__user {
+  margin-top: 2rem;
+}
+
+.high__recomended {
+  color: #00ff57;
+  margin-top: 0.2rem;
+}
+
+.desc__container {
+  width: 80%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.intro__desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.username {
+  font-size: 3rem;
+}
+
+.report__button {
+  text-decoration: none;
+  width: 200px;
+  font-size: 1.8rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.report__button:hover {
+  color: #303235;
+  transition: 0.6s;
+  box-shadow: inset 0px -52px 0px 0px white;
+}
+
+.join__date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__desc {
+  margin-top: 4rem;
+}
+
+.about__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__me {
+  width: 10%;
+}
+
+.white__bar {
+  width: 90%;
+  height: 2px;
+  margin-left: 10px;
+  background: #c4c4c4;
+}
+
+.about__text {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.reports__container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 90%;
+}
+
+.report__list {
+  list-style: none;
+  padding: 0;
+}
+
+.report__list-item {
+  margin-top: 1rem;
+  border-left: 5px solid #c4c4c4;
+  padding-left: 2rem;
+}
+
+.text__list {
+  line-height: 2rem;
+}
+
+.report__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.list__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.details__stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
