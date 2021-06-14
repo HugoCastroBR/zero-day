@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .Header__container {
   position: absolute;
   height: 80px;
@@ -45,6 +49,10 @@
           align-items: right;
 }
 
+.menu__join {
+  color: white;
+}
+
 .menu__button {
   font-size: 26px;
 }
@@ -71,8 +79,8 @@
   color: #303235;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  -webkit-box-shadow: inset 0px -30px 0px 0px white;
-          box-shadow: inset 0px -30px 0px 0px white;
+  -webkit-box-shadow: inset 0px -32px 0px 0px white;
+          box-shadow: inset 0px -32px 0px 0px white;
 }
 
 .menu__link {

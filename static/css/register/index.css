@@ -4,12 +4,17 @@
     src: url("./fonts/NATS-Regular.ttf");
 }
 
+html{
+    overflow: hidden;
+}
+
 * {
     font-family: "NATS";
 }
 
 body {
     background: #303235;
+    
 }
 
 .container {

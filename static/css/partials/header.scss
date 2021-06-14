@@ -1,6 +1,10 @@
 
  // Just Header
 
+a{
+	text-decoration: none;
+}
+
 .Header__container {
 	position: absolute;
 	height: 80px;
@@ -33,6 +37,9 @@
 	align-items: right;
 }
 
+.menu__join{
+	color: white;
+}
 .menu__button {
 	font-size: 26px;
 }
@@ -50,7 +57,7 @@
 .menu__join:hover {
 	color: #303235;
 	transition: 0.6s;
-	box-shadow: inset 0px -30px 0px 0px white;
+	box-shadow: inset 0px -32px 0px 0px white;
 }
 
 .menu__link {
