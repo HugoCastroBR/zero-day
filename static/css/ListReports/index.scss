@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+	font-family: "NATS";
+	src: url("../fonts/NATS-Regular.ttf");
+}
+
+body {
+	background: #303235;
+	font-family: "NATS", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	overflow-x: hidden;
+
+}
+
+main {
+	width: 90%;
+	max-width: 1500px;
+	margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+.Upline {
+   
+	width: calc(100% - 100px);
+    margin-bottom: 20px;
+    border: 1px solid white;
+    margin-left: 90px;
+}
+
+.Upline::before {
+	content: "Dashboard";
+	display: block;
+	width: 200px;
+	height: 20px;
+	margin-top: -10px;
+	margin-left: -90px;
+}
+
+.Reports__Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Report__item{
+    margin-top: 4px;
+    margin-bottom: 40px;
+    padding-top: 2px;
+    width: calc(100% - 14px);
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid white;
+    
+}
+
+.Report__title{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.Report__title span{
+    width: 100%;
+}
+
+.Report__details__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.Report__details__main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Report__details__options{
+    width: 30vw;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.Report__paid__details{
+    height: 0px;
+    overflow: hidden;
+    transition: 1.6s;
+}
+
+.Report__details__item {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.Report__details__item p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+.DefaultBtn{
+    width: 140px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.DefaultBtn:hover{
+    transition: 0.6s;
+    color: #303235;
+    box-shadow: inset 0px -44px 0px 0px white;
+}
+.BlockedBtn{
+    width: 140px;
+    height: 40px;
+    border: 2px solid rgb(113, 113, 113);
+    border-radius: 4px;
+    color:  rgb(113, 113, 113);;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.6s;
+}
