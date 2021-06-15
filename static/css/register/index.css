@@ -133,3 +133,14 @@ body {
     padding: 0;
     margin: 0%;
 }
+
+@media screen and (max-width: 800px){
+    .left{
+        display: none;
+    }
+    .right{
+        border-radius: 30px;
+        border: 1px solid white;
+    }
+
+}

@@ -36,7 +36,8 @@ header {
 
 .search__container {
   height: 40px;
-  width: 600px;
+  max-width: 600px;
+  width: calc(40vw + 42px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +54,8 @@ header {
 }
 
 .search__input {
-  width: 558px;
+  max-width: 558px;
+  width: 40vw;
   height: 60px;
   border: none;
   font-size: 1.5rem;

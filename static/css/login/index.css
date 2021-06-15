@@ -128,11 +128,14 @@ body {
     justify-content: center;
     height: 50px;
     color: white;
+    margin-bottom: 5px;
+
 }
 
 .inputContainer label {
     padding: 0;
     margin: 0%;
+    margin-bottom: 5px;
 }
 
 .forgot {
@@ -156,5 +159,16 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    margin-top: -8px;
+    
+}
+
+@media screen and (max-width: 800px){
+    .left{
+        display: none;
+    }
+    .right{
+        border-radius: 30px;
+        border: 1px solid white;
+    }
+
 }

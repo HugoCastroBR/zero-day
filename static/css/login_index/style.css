@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @font-face {
     font-family: "NATS";
-    src: url("../fonts/NATS-Regular.ttf")
+    src: url("../../fonts/NATS-Regular.ttf")
 }
 
 * {
@@ -13,10 +13,11 @@ body {
   overflow-x: hidden;
 }
 main {
+  height: 100vh;
   width: 100vw;
 }
 .image_title_container{
-  background-image: url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-image: url(../../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,10 +32,21 @@ main {
   left: -40px;
   width: 110vw;
 }
+
+.Content__container{
+  padding-top: 200px;
+  
+  
+}
 .image_title_container span {
   transform: rotate(3.35deg);
-  margin-top: 250px;
-  margin-left: -100px;
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  
 }
 .first_text {
   align-items: center;
@@ -42,32 +54,47 @@ main {
   display: flex;
   color: #fff;
   font-size: 2.8rem;
+  margin-top: 200px;
   margin-bottom: -100px;
-  margin-top: 450px;
+  
 }
 
 
 .select_container {
   margin: 0 auto;
   display: flex;
-  width: 55%;
-  height: 100vh;
-  justify-content: space-between;
+  width: 100vw;
+  max-width: 1000px;
+  height: 60vh;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
 
 .block_container {
+  margin-top: 20px;
   height: 300px;
   width: 300px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 5% 5% 5% 5%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: #303235;
+  cursor: pointer;
+  transition: 0.4s;
+  backdrop-filter: blur(10px);
 }
-
+.block_container:hover{
+  background: rgba(255, 255, 255, 0.233);
+  
+  transition: 0.4s;
+  transform: scale(1.1);
+  filter: invert(1);
+  border: 1px solid black;
+}
 .professional {
   width: 150px;
   height: 150px;

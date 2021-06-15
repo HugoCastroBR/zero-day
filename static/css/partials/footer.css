@@ -15,13 +15,15 @@ footer {
 .footer__link {
   color: #fff;
   text-decoration: none;
-  font-size: 2.4rem;
+  font-size: 18px;
 }
 
 .footer__logo {
   margin-top: 5px;
   margin-left: 22px;
   height: 72px;
+  max-width: 140px;
+  width: 12vw;
 }
 
 .footer__social {
@@ -39,6 +41,6 @@ footer {
 .footer__icons {
   color: #fff;
   text-decoration: none;
-  font-size: 3.2rem;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=footer.css.map */

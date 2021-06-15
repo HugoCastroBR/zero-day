@@ -61,6 +61,7 @@ main {
 .intro__desc {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .username {
@@ -84,7 +85,7 @@ main {
 .report__button:hover {
   color: #303235;
   transition: 0.6s;
-  box-shadow: inset 0px -52px 0px 0px white;
+  box-shadow: inset 0px -54px 0px 0px white;
 }
 
 .join__date {
@@ -132,13 +133,22 @@ main {
 }
 
 .report__list-item {
+  min-height: 70px;
   margin-top: 1rem;
   border-left: 5px solid #c4c4c4;
   padding-left: 2rem;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
 }
 
 .text__list {
-  line-height: 2rem;
+  display: block;
+  height: auto;
+  line-height: 1rem;
+  margin-bottom: 10px;
 }
 
 .report__item {
